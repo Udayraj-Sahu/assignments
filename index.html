@@ -2,68 +2,104 @@
 <html>
 <head>
   <title>My Website</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <header class="container"> 
+  <header>
     <h1>Welcome to My Website</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Blogs</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Events</a></li>
-        <li><a href="#">Jobs</a></li>
-      </ul>
-    </nav>
   </header>
 
-  <main>
-    <section class="blogs">
-      <h2>Blogs</h2>
-      <div class="blog-segments">
-        <div class="segment">
-          <h3>Segment 1</h3>
-          <ul class="Sub-segment">
-            <li><a href="#">Sub-segment 1</a></li>
-            <li><a href="#">Sub-segment 2</a></li>
-            <li><a href="#">Sub-segment 3</a></li>
-          </ul>
-        </div>
-        <div class="segment">
-          <h3>Segment 2</h3>
-          <ul class="Sub-segment">
-            <li><a href="#">Sub-segment 1</a></li>
-            <li><a href="#">Sub-segment 2</a></li>
-            <li><a href="#">Sub-segment 3</a></li>
-          </ul>
-        </div>
-        <div class="segment">
-          <h3>Segment 3</h3>
-          <ul class="Sub-segment">
-            <li><a href="#">Sub-segment 1</a></li>
-            <li><a href="#">Sub-segment 2</a></li>
-            <li><a href="#">Sub-segment 3</a></li>
-          </ul>
-        </div>
-      </div>
-    </section>
+  <nav>
+    <ul>
+      <li><a href="#segment1">Segment 1</a></li>
+      <li><a href="#segment2">Segment 2</a></li>
+      <li><a href="#segment3">Segment 3</a></li>
+    </ul>
+  </nav>
 
-    <section class="news">
-      <h2>News</h2>
-      <!-- Add news feeds here -->
-    </section>
+  <div id="segment1" class="segment">
+    <h2>Segment 1</h2>
+    <div class="subsegment">
+      <h3>Subsegment 1.1</h3>
+      <p>Content for subsegment 1.1</p>
+    </div>
+    <div class="subsegment">
+      <h3>Subsegment 1.2</h3>
+      <p>Content for subsegment 1.2</p>
+    </div>
+    <div class="subsegment">
+      <h3>Subsegment 1.3</h3>
+      <p>Content for subsegment 1.3</p>
+    </div>
+  </div>
 
-    <section class="events">
-      <h2>Upcoming Events</h2>
-      <!-- Add upcoming events here -->
-    </section>
+  <div id="segment2" class="segment">
+    <h2>Segment 2</h2>
+    <div class="subsegment">
+      <h3>Subsegment 2.1</h3>
+      <p>Content for subsegment 2.1</p>
+    </div>
+    <div class="subsegment">
+      <h3>Subsegment 2.2</h3>
+      <p>Content for subsegment 2.2</p>
+    </div>
+  </div>
 
-    <section class="jobs">
-      <h2>Jobs</h2>
-      <!-- Add job listings here -->
-    </section>
-  </main>
+  <div id="segment3" class="segment">
+    <h2>Segment 3</h2>
+    <div class="subsegment">
+      <h3>Subsegment 3.1</h3>
+      <p>Content for subsegment 3.1</p>
+    </div>
+    <div class="subsegment">
+      <h3>Subsegment 3.2</h3>
+      <p>Content for subsegment 3.2</p>
+    </div>
+    <div class="subsegment">
+      <h3>Subsegment 3.3</h3>
+      <p>Content for subsegment 3.3</p>
+    </div>
+    <div class="subsegment">
+      <h3>Subsegment 3.4</h3>
+      <p>Content for subsegment 3.4</p>
+    </div>
+  </div>
+
+  <section class="news">
+    <h2>News Feeds</h2>
+    <div class="news-item">
+      <h3>News Item 1</h3>
+      <p>Content for News Item 1</p>
+    </div>
+    <div class="news-item">
+      <h3>News Item 2</h3>
+      <p>Content for News Item 2</p>
+    </div>
+  </section>
+
+  <section class="events">
+    <h2>Upcoming Events</h2>
+    <div class="event">
+      <h3>Event 1</h3>
+      <p>Date and details for Event 1</p>
+    </div>
+    <div class="event">
+      <h3>Event 2</h3>
+      <p>Date and details for Event 2</p>
+    </div>
+  </section>
+
+  <section class="jobs">
+    <h2>Jobs</h2>
+    <div class="job">
+      <h3>Job Title 1</h3>
+      <p>Job description for Job Title 1</p>
+    </div>
+    <div class="job">
+      <h3>Job Title 2</h3>
+      <p>Job description for Job Title 2</p>
+    </div>
+  </section>
 
   <footer>
     <p>&copy; 2023 My Website. All rights reserved.</p>
